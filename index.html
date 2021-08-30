@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">JS JQ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Interactions
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="nav-item">
+                    <a class="nav-link" href="dragable.html">Draggable</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Widgets
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="nav-item">
+                    <a class="nav-link" href="accordion.html">Accordion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="date.html">Date Picker & Auto Complete</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="selectmenu.html">Select Menu & Tooltip</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="menutab.html">Menu & Tabs</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 class="text-center">Hello, world!</h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="redbox redbox1 mb-3"></div>
+                <button type="button" id="btnhide" class="btn btn-outline-info">Click to hide</button>
+                <button type="button" id="btnshow" class="btn btn-outline-info">Click to show</button>
+                <button type="button" id="s_h_toggle" class="btn btn-outline-warning">Click Me to Toggle</button>
+                <p id="addclassp" class="mt-3
+                ">Lets add a class using button click</p>
+                <button type="button" id="addclass" class="btn btn-outline-success">Click Me to Add CSS</button>
+                <button type="button" id="removeclass" class="btn btn-outline-success">Click Me to Remove CSS</button>
+            </div>
+            <div class="col-lg-12">
+                <p>Click the button to see fade effects</p>
+                <div class="redbox2 my-3">
+                    <img src="images/thanos.jpg" class="img-fluid" alt="Thanos">
+                </div>
+                <button type="button" id="fadeoutbtn" class="btn btn-outline-secondary">Fade out</button>
+                <button type="button" id="fadeinbtn" class="btn btn-outline-dark">Fade In</button>
+                <button type="button" id="fadetglbtn" class="btn btn-outline-info">FadeToggle</button>
+                <button type="button" id="fadetobtn" class="btn btn-outline-danger">Fade To</button>
+            </div>
+            <div class="col-lg-8">
+                <div class="faq_wrapper mt-5">
+                    <h2>Frequently Asked Question</h2>
+                    <h4 id="question">1. What is Javascript?</h4>
+                    <p id="answer">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+                    <h4 id="question2">2. What is Javascript?</h4>
+                    <p id="answer2">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS links -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
